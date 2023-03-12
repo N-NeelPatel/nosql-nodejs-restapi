@@ -51,12 +51,12 @@ The following APIs are available in this project:
 ### Subscribers
 - `GET /subscribers`: Retrieves all subscribers in the database.
 
-`GET /subscribers/:id`: Retrieves a specific subscriber by ID.
+- `GET /subscribers/:id`: Retrieves a specific subscriber by ID.
 
-`POST /subscribers`: Creates a new subscriber in the database. The request body should include the subscriber's name, email, and subscribedToChannel.
+- `POST /subscribers`: Creates a new subscriber in the database. The request body should include the subscriber's name, email, and subscribedToChannel.
 
-`PUT /subscribers/:id`: Updates a specific subscriber by ID. The request body should include the updated subscriber's name, email, and subscribedToChannel.
+- `PUT /subscribers/:id`: Updates a specific subscriber by ID. The request body should include the updated subscriber's name, email, and subscribedToChannel.
 
-`DELETE /subscribers/:id`: Deletes a specific subscriber by ID.
+- `DELETE /subscribers/:id`: Deletes a specific subscriber by ID.
 
 
